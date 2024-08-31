@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div className="flex flex-col justify-start items-center container mx-auto px-4 h-screen font-mono">
-      <div className="h-2/6 flex flex-col justify-center items-center gap-5">
+      <div className="sm:h-full md:h-2/6 flex flex-col justify-center items-center gap-5">
         <div>
           <h1 className="text-5xl subpixel-antialiased font-semibold ">
             Num Texter
@@ -46,7 +46,10 @@ const App = () => {
         </div>
         <div>
           <div className="text-white bg-blue-700 hover:bg-blue-800   font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
-            <a href="">
+            <a
+              href="https://github.com/foverokavindz/NUM-73X73R"
+              target="_blank"
+            >
               <div className="flex flex-row gap-2 justify-center items-center">
                 Get Code
                 <svg
@@ -72,7 +75,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-between items-center w-full gap-16 h-full">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full gap-4 md:gap-16 h-full">
         <div className="flex flex-col gap-5 w-full">
           <div>
             <label
